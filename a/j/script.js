@@ -7,6 +7,10 @@ window.onload = function() {
   t.onmouseleave = function () {
       e.classList.remove('faded');
   };
+  var ua = window.navigator.userAgent;
+  if (ua.indexOf('YaBrowser') !== -1 || ua.indexOf('Yowser') !== -1) {
+    e.classList.add("ya");
+  }
   function o() {
     if (document.documentElement.clientWidth > 699) {
       var n = new Image();
