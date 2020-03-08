@@ -55,7 +55,7 @@ h2 {
 section {
   margin: 100px 0;
 }
-.padder, .ya .title {
+.padder, .title, .ya .title {
   display: none;
 }
 .wrapper {
